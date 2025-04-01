@@ -163,8 +163,46 @@ nav {
     }
 }
 
-@media (max-width: 480px) { /* Small phones, including 430x920 */
+@media (max-width: 480px) {
+    /* Small phones, including 430x920 */
     .team-container {
-        transform:translateY(-25vh) scale(50%);
+        height: 80vh; /* Reduce height to prevent excess space */
+        padding-bottom: 0;
+    }
+
+    .div-svg{
+        scale(0.5)
+    }
+
+    .team-member:nth-child(2) {
+        transform: translate(-50%, -50%) translateY(-20vh);
+    }
+
+    .team-member:nth-child(3) {
+        transform: translate(-50%, -50%) translateY(-14vh) translateX(14vh);
+    }
+
+    .team-member:nth-child(4) {
+        transform: translate(-50%, -50%) translateY(0vh) translateX(20vh);
+    }
+
+    .team-member:nth-child(5) {
+        transform: translate(-50%, -50%) translateY(14vh) translateX(14vh);
+    }
+
+    .team-member:nth-child(6) {
+        transform: translate(-50%, -50%) translateY(20vh);
+    }
+
+    .team-member:nth-child(7) {
+        transform: translate(-50%, -50%) translateY(14vh) translateX(-14vh);
+    }
+
+    .team-member:nth-child(8) {
+        transform: translate(-50%, -50%) translateY(0vh) translateX(-20vh);
+    }
+
+    .team-member:nth-child(9) {
+        transform: translate(-50%, -50%) translateY(-14vh) translateX(-14vh);
     }
 }
