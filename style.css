@@ -130,79 +130,106 @@ nav {
 }
 
 @media (max-width: 1024px) { /* Tablets */
+    .team-member span {
+        font-size: clamp(0.7rem, 1.8vw, 1rem); /* Adjusted for tablets */
+        margin-top: 0.5vh; /* Moves label closer to image */
+    }
+
+    .team-member img {
+        width: clamp(60px, 10vw, 100px); /* Responsive image sizing */
+        height: clamp(60px, 10vw, 100px);
+    }
+
     .team-member:nth-child(2) {
-        transform: translate(-50%, -50%) translateY(-25vh);
+        transform: translate(-50%, -50%) translateY(-34vw);
     }
 
     .team-member:nth-child(3) {
-        transform: translate(-50%, -50%) translateY(-17vh) translateX(17vh);
+        transform: translate(-50%, -50%) translateY(-24vw) translateX(24vw);
     }
 
     .team-member:nth-child(4) {
-        transform: translate(-50%, -50%) translateY(0vh) translateX(25vh);
+        transform: translate(-50%, -50%) translateY(0vw) translateX(32vw);
     }
 
     .team-member:nth-child(5) {
-        transform: translate(-50%, -50%) translateY(17vh) translateX(17vh);
+        transform: translate(-50%, -50%) translateY(24vw) translateX(24vw);
     }
 
     .team-member:nth-child(6) {
-        transform: translate(-50%, -50%) translateY(25vh);
+        transform: translate(-50%, -50%) translateY(34vw);
     }
 
     .team-member:nth-child(7) {
-        transform: translate(-50%, -50%) translateY(17vh) translateX(-17vh);
+        transform: translate(-50%, -50%) translateY(24vw) translateX(-24vw);
     }
 
     .team-member:nth-child(8) {
-        transform: translate(-50%, -50%) translateY(0vh) translateX(-25vh);
+        transform: translate(-50%, -50%) translateY(0vw) translateX(-32vw);
     }
 
     .team-member:nth-child(9) {
-        transform: translate(-50%, -50%) translateY(-17vh) translateX(-17vh);
+        transform: translate(-50%, -50%) translateY(-24vw) translateX(-24vw);
     }
 }
 
-@media (max-width: 480px) {
-    /* Small phones, including 430x920 */
+@media (max-width: 480px) { /* Small phones, including 430x920 */
     .team-container {
-        height: 80vh; /* Reduce height to prevent excess space */
+        height: 90vh;
         padding-bottom: 0;
     }
 
-    .div-svg{
-        scale(0.5)
+    .div-svg {
+        transform: scale(0.75); /* Increased scale further */
+    }
+
+    .team-member img {
+        width: clamp(60px, 22vw, 110px); /* Increased min and max size */
+        height: clamp(60px, 22vw, 110px);
+    }
+
+    .team-member span {
+        font-size: clamp(0.9rem, 4vw, 1.2rem); /* Ensures readability */
+        margin-top: 3vh; /* More spacing for labels */
     }
 
     .team-member:nth-child(2) {
-        transform: translate(-50%, -50%) translateY(-20vh);
+        transform: translate(-50%, -50%) translateY(-40vw);
     }
 
     .team-member:nth-child(3) {
-        transform: translate(-50%, -50%) translateY(-14vh) translateX(14vh);
+        transform: translate(-50%, -50%) translateY(-28vw) translateX(30vw);
     }
 
     .team-member:nth-child(4) {
-        transform: translate(-50%, -50%) translateY(0vh) translateX(20vh);
+        transform: translate(-50%, -50%) translateY(0vw) translateX(35vw);
     }
 
     .team-member:nth-child(5) {
-        transform: translate(-50%, -50%) translateY(14vh) translateX(14vh);
+        transform: translate(-50%, -50%) translateY(28vw) translateX(30vw);
     }
 
     .team-member:nth-child(6) {
-        transform: translate(-50%, -50%) translateY(20vh);
+        transform: translate(-50%, -50%) translateY(40vw);
     }
 
     .team-member:nth-child(7) {
-        transform: translate(-50%, -50%) translateY(14vh) translateX(-14vh);
+        transform: translate(-50%, -50%) translateY(28vw) translateX(-30vw);
     }
 
     .team-member:nth-child(8) {
-        transform: translate(-50%, -50%) translateY(0vh) translateX(-20vh);
+        transform: translate(-50%, -50%) translateY(0vw) translateX(-35vw);
     }
 
     .team-member:nth-child(9) {
-        transform: translate(-50%, -50%) translateY(-14vh) translateX(-14vh);
+        transform: translate(-50%, -50%) translateY(-28vw) translateX(-30vw);
+    }
+
+    .label{
+        transform: translateY(-5vw);
+    }
+
+    .team-member span {
+        font-size: clamp(0.6rem, 1.5vw, 0.8rem); /* Smaller text on small screens */
     }
 }
