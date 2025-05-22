@@ -1,7 +1,7 @@
 /* General Body and Page Layout */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Raleway, sans-serif;
     background-color: #f0f0f0;
 }
 
@@ -34,7 +34,9 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-    padding-top: 5vh; /* Using vh for better responsiveness */
+    padding-top: 5vh;
+
+    /* Using vh for better responsiveness */
     padding-bottom: 5vh;
     height: 100vh;
     max-width: 100%;
@@ -49,7 +51,9 @@ nav {
 }
 
 .central-circle img {
-    width: 12vw; /* Making the central circle responsive using vw */
+    width: 12vw;
+
+    /* Making the central circle responsive using vw */
     height: 12vw;
     border-radius: 50%;
 }
@@ -73,7 +77,9 @@ nav {
 }
 
 .team-member img {
-    width: 8vw; /* Use vw for scaling */
+    width: 8vw;
+
+    /* Use vw for scaling */
     height: 8vw;
     border-radius: 50%;
     border: 4px solid #fff;
@@ -129,14 +135,14 @@ nav {
     transform: translate(-50%, -50%) translateY(-21vh) translateX(-21vh);
 }
 
-@media (max-width: 1024px) { /* Tablets */
+@media (max-width: 1024px) {
     .team-member span {
-        font-size: clamp(0.7rem, 1.8vw, 1rem); /* Adjusted for tablets */
-        margin-top: 0.5vh; /* Moves label closer to image */
+        font-size: clamp(0.7rem, 1.8vw, 1rem);
+        margin-top: 0.5vh;
     }
 
     .team-member img {
-        width: clamp(60px, 10vw, 100px); /* Responsive image sizing */
+        width: clamp(60px, 10vw, 100px);
         height: clamp(60px, 10vw, 100px);
     }
 
@@ -173,24 +179,24 @@ nav {
     }
 }
 
-@media (max-width: 480px) { /* Small phones, including 430x920 */
+@media (max-width: 480px) {
     .team-container {
         height: 90vh;
         padding-bottom: 0;
     }
 
     .div-svg {
-        transform: scale(0.75); /* Increased scale further */
+        transform: scale(0.75);
     }
 
     .team-member img {
-        width: clamp(60px, 22vw, 110px); /* Increased min and max size */
+        width: clamp(60px, 22vw, 110px);
         height: clamp(60px, 22vw, 110px);
     }
 
     .team-member span {
-        font-size: clamp(0.9rem, 4vw, 1.2rem); /* Ensures readability */
-        margin-top: 3vh; /* More spacing for labels */
+        font-size: clamp(0.9rem, 4vw, 1.2rem);
+        margin-top: 3vh;
     }
 
     .team-member:nth-child(2) {
@@ -225,11 +231,11 @@ nav {
         transform: translate(-50%, -50%) translateY(-28vw) translateX(-30vw);
     }
 
-    .label{
+    .label {
         transform: translateY(-5vw);
     }
 
     .team-member span {
-        font-size: clamp(0.6rem, 1.5vw, 0.8rem); /* Smaller text on small screens */
+        font-size: clamp(0.6rem, 1.5vw, 0.8rem);
     }
 }
