@@ -1,0 +1,14 @@
+ErrorDocument 400 http://listacontrocorrente.great-site.net/400.html
+ErrorDocument 401 http://listacontrocorrente.great-site.net/401.html
+ErrorDocument 403 http://listacontrocorrente.great-site.net/403.html
+ErrorDocument 404 http://listacontrocorrente.great-site.net/404.html
+ErrorDocument 503 http://listacontrocorrente.great-site.net/503.html
+
+# BEGIN InfinityFree Directory Protection
+# DO NOT EDIT - YOUR CHANGES WILL BE OVERWRITTEN
+AuthType Basic
+AuthName "Lista Contro Corrente - only admin"
+AuthUserFile "/home/vol13_4/infinityfree.com/if0_38658213/htdocs//.htpasswd"
+Require valid-user
+Options -Indexes
+# END InfinityFree Directory Protection
