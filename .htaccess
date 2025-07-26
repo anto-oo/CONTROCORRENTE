@@ -8,7 +8,7 @@ ErrorDocument 503 http://listacontrocorrente.great-site.net/503.html
 # DO NOT EDIT - YOUR CHANGES WILL BE OVERWRITTEN
 AuthType Basic
 AuthName "Lista Contro Corrente - only admin"
-AuthUserFile "/home/vol13_4/infinityfree.com/if0_38658213/htdocs//.htpasswd"
+AuthUserFile "/.htpasswd"
 Require valid-user
 Options -Indexes
 # END InfinityFree Directory Protection
