@@ -1,0 +1,232 @@
+/* General Body and Page Layout */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header Styles */
+nav {
+    background-color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar links */
+.navbar-nav {
+    justify-content: flex-end;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #333;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007bff;
+}
+
+/* Team Container - Positioning and Styling */
+.team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100vh;
+}
+
+/* Central Circle */
+.central-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.central-circle img {
+    width: 150px; /* Slightly bigger central circle */
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Team Members - Radial Distribution */
+.team-member {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.team-member a {
+    display: block;
+    text-align: center;
+    color: #333;
+     /* Rotate 90 degrees to face the bottom */
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.team-member span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.team-member a:hover img {
+    transform: scale(1.1);
+}
+
+.team-member a:hover span {
+    color: #007bff;
+}
+
+/* Custom CSS for Radial Distribution */
+.team-member:nth-child(2) {
+    transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 0)) translateY(-200px); /* Position and rotate the first circle */
+}
+
+.team-member:nth-child(3) {
+    transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 1)) translateY(-200px);
+}
+
+.team-member:nth-child(4) {
+    transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 2)) translateY(-200px);
+}
+
+.team-member:nth-child(5) {
+    transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 3)) translateY(-200px);
+}
+
+.team-member:nth-child(6) {
+    transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 4)) translateY(-200px);
+}
+
+.team-member:nth-child(7) {
+    transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 5)) translateY(-200px);
+}
+
+.team-member:nth-child(8) {
+    transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 6)) translateY(-200px);
+}
+
+.team-member:nth-child(9) {
+    transform: translate(-50%, -50%) rotate(calc(360deg / 8 * 7)) translateY(-200px);
+}
+
+/* Image Classes - Individual Image Styling */
+.team-member1 img {
+    width: 120px; /* Larger circle for first member */
+    border-color: #ff0000; /* Example: Red border for the first image */
+    rotate: 0deg;
+}
+
+.team-member2 img {
+    width: 120px; /* Smaller circle for second member */
+    border-color: #00ff00; /* Example: Green border for the second image */
+    transform: rotate(45deg);
+}
+
+.team-member3 img {
+    width: 120px; /* Slightly smaller circle for third member */
+    border-color: #0000ff; /* Example: Blue border for the third image */
+}
+
+.team-member4 img {
+    width: 120px; /* Medium-sized circle for fourth member */
+    border-color: #ffff00; /* Example: Yellow border for the fourth image */
+}
+
+.team-member5 img {
+    width: 120px; /* Larger circle for fifth member */
+    border-color: #ff00ff; /* Example: Purple border for the fifth image */
+}
+
+.team-member6 img {
+    width: 120px; /* Larger circle for sixth member */
+    border-color: #00ffff; /* Example: Cyan border for the sixth image */
+}
+
+.team-member7 img {
+    width: 120px; /* Bigger circle for seventh member */
+    border-color: #ff8000; /* Example: Orange border for the seventh image */
+}
+
+.team-member8 img {
+    width: 120px; /* Smaller circle for eighth member */
+    border-color: #800080; /* Example: Purple border for the eighth image */
+}
+
+/* Label Styling - Custom for Each Team Member */
+.label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+}
+
+.label-center {
+    font-size: 1.2rem;
+    color: #333;
+    transform: rotate(0deg); /* Center member label directly facing the bottom */
+}
+
+.label1 {
+    color: #333; /* Red label */
+    transform: rotate(0deg); /* Custom rotation for label 1 */
+}
+
+.label2 {
+    color: #333; /* Green label */
+    transform: rotate(-45deg) translateX(55px); /* Custom rotation for label 2 */
+    padding-top: 20px;
+     ;
+}
+
+.label3 {
+    color: #333; /* Blue label */
+    transform: rotate(-90deg) translateX(135px) translateY(15px); /* Custom rotation for label 3 */
+    padding-top: 125px;
+}
+
+.label4 {
+    color: #333; /* Yellow label */
+    transform: rotate(225deg) translateX(55px) translateY(125px); /* Custom rotation for label 4 */
+}
+
+.label5 {
+    color: #333; /* Purple label */
+    transform: rotate(180deg) translateY(150px); /* Custom rotation for label 5 */
+}
+
+.label6 {
+    color: #333; /* Cyan label */
+    transform: rotate(135deg) translateY(125px) translateX(-50px); /* Custom rotation for label 6 */
+}
+
+.label7 {
+    color: #333; /* Orange label */
+    transform: rotate(90deg) translateX(-75px) translateY(75px); /* Custom rotation for label 7 */
+}
+
+.label8 {
+    color: #333; /* Purple label */
+    transform: rotate(45deg) translateX(-50px) translateY(25px); /* Custom rotation for label 8 */
+}
