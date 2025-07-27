@@ -4,17 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0db9dbd-012d-447e-8bfb-7cdd6f001f8a" name="Changes" comment="added files" />
+    <list default="true" id="b0db9dbd-012d-447e-8bfb-7cdd6f001f8a" name="Changes" comment="fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/index_1743192611.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/index_1743196093.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/index_1743257607.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1744388400.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753533662.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753533685.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753534061.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753534814.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753534919.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753534924.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535249.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535254.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535255.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535257.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535519.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535532.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535546.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535547.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535554.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535558.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753536080.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753536111.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753536115.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;anto-oo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/anto-oo/CONTROCORRENTE.git&quot;,
+    &quot;accountId&quot;: &quot;6319ff07-07ce-4bf4-8d8c-567aa1b30647&quot;
+  }
+}</component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -28,8 +80,10 @@
   "keyToString": {
     "JavaScript Debug.index.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.middleware.ts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/Users/antoniofusco/CONTROCORRENTE",
@@ -38,10 +92,21 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.qodana",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.1.4.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Toto1\WebstormProjects\CONTROCORRENTE" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="middleware.ts" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="middleware.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,6 +128,8 @@
       <workItem from="1743531501311" duration="5466000" />
       <workItem from="1753536877681" duration="177000" />
       <workItem from="1753537097499" duration="306000" />
+      <workItem from="1753537435924" duration="6677000" />
+      <workItem from="1753608944867" duration="1375000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -88,14 +155,96 @@
       <option name="project" value="LOCAL" />
       <updated>1743543097729</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added files">
+      <option name="closed" value="true" />
+      <created>1753537552868</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753537552868</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added files">
+      <option name="closed" value="true" />
+      <created>1753537721793</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753537721795</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added files">
+      <option name="closed" value="true" />
+      <created>1753549937694</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753549937694</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added files">
+      <option name="closed" value="true" />
+      <created>1753550899882</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753550899883</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added files">
+      <option name="closed" value="true" />
+      <created>1753553170325</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1753553170325</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Corrected 4th point social">
+      <option name="closed" value="true" />
+      <created>1753553780298</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1753553780299</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added files">
+      <option name="closed" value="true" />
+      <created>1753607086432</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1753607086434</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added files">
+      <option name="closed" value="true" />
+      <created>1753610151569</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1753610151569</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added files">
+      <option name="closed" value="true" />
+      <created>1753610794324</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1753610794324</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix">
+      <option name="closed" value="true" />
+      <created>1753611219336</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1753611219336</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Corrected 4th point social" />
     <MESSAGE value="added files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added files" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
