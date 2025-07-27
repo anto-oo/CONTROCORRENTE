@@ -1,32 +1,41 @@
-import { NextResponse } from 'next/server';
-import type { NextRequest } from 'next/server';
+import { NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
 
-const AUTH_USERS: record<string, string> = {
-    'admin':'admin',
-    'peppe':'seppepepe08',
-    'irene':'stairway650',
+// Mappa di utenti validi: username => password
+const AUTH_USERS: Record<string, string> = {
+    'admin': 'admin',
+    'peppe': 'seppepepe08',
+    'irene': 'stairway650',
 }
 
 export function middleware(request: NextRequest) {
-    const authHeader = request.headers.get('Authorization');
-    if (!authHeader) {
-        return new NextResponse('Unauthorized', { status: 401 });
+    const authHeader = request.headers.get('authorization')
+
+    if (!authHeader ) {
+        return new Response('Authentication required', {
+            status: 401,
+            headers: {
+                'WWW-Authenticate': 'Basic realm="Secure Area"',
+            },
+        })
     }
 
-    const [username, password] = atob(authHeader.split(' ')[1]).split(':');
-    if (AUTH_USERS[username] !== password) {
-        return new NextResponse('Forbidden', { status: 403 });
-    }
+    try {
+        const base64Credentials = authHeader.split(' ')[1]
+        const credentials = atob(base64Credentials)
+        const [username, password] = credentials.split(':')
 
-export function middleware(request: NextRequest) {
-    const authHeader = request.headers.get('Authorization');
-    if (!authHeader) {
-        return new NextResponse('Unauthorized', { status: 401 });
-    }
+        if (!username || !password || AUTH_USERS[username] !== password) {
+            return new Response('Unauthorized', {
+                status: 401,
+                headers: {
+                    'WWW-Authenticate': 'Basic realm="Secure Area"',
+                },
+            })
+        }
 
-    const [username, password] = atob(authHeader.split(' ')[1]).split(':');
-    if (AUTH_USERS[username] !== password) {
-        return new NextResponse('Forbidden', { status: 403 });
+        return NextResponse.next()
+    } catch (e) {
+        return new Response('Invalid auth format', { status: 400 })
     }
-
-    return NextResponse.next();}}
+}
