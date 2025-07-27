@@ -111,7 +111,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="middleware.ts" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middleware.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$">
+    <configuration name="middleware.ts" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/public/middleware.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
   </component>
