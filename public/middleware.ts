@@ -1,41 +1,35 @@
-import { NextResponse } from 'next/server'
-import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
 
-// Mappa di utenti validi: username => password
 const AUTH_USERS: Record<string, string> = {
-    'admin': 'admin',
-    'peppe': 'seppepepe08',
-    'irene': 'stairway650',
-}
+    admin: 'admin',
+    peppe: 'seppepe08',
+    irene: 'stairway650',
+};
 
 export function middleware(request: NextRequest) {
-    const authHeader = request.headers.get('authorization')
+    const authHeader = request.headers.get('Authorization');
 
-    if (!authHeader ) {
-        return new Response('Authentication required', {
-            status: 401,
-            headers: {
-                'WWW-Authenticate': 'Basic realm="Secure Area"',
-            },
-        })
+    if (!authHeader) {
+        return new NextResponse('Unauthorized', { status: 401 });
     }
 
     try {
-        const base64Credentials = authHeader.split(' ')[1]
-        const credentials = atob(base64Credentials)
-        const [username, password] = credentials.split(':')
+        const encoded = authHeader.split(' ')[1];
+        const [username, password] = atob(encoded).split(':');
 
-        if (!username || !password || AUTH_USERS[username] !== password) {
-            return new Response('Unauthorized', {
-                status: 401,
-                headers: {
-                    'WWW-Authenticate': 'Basic realm="Secure Area"',
-                },
-            })
+        if (AUTH_USERS[username] !== password) {
+            return new NextResponse('Forbidden', { status: 403 });
         }
 
-        return NextResponse.next()
-    } catch (e) {
-        return new Response('Invalid auth format', { status: 400 })
+        // ✅ Auth successful — redirect to /index.html
+        return NextResponse.redirect(new URL('/index.html', request.url));
+    } catch {
+        return new NextResponse('Bad Request', { status: 400 });
     }
 }
+
+// ⛔ Prevent middleware from applying to /index.html itself
+export const config = {
+    matcher: ['/((?!index\\.html).*)'],
+};

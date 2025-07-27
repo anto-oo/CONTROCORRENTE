@@ -4,31 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0db9dbd-012d-447e-8bfb-7cdd6f001f8a" name="Changes" comment="fix">
+    <list default="true" id="b0db9dbd-012d-447e-8bfb-7cdd6f001f8a" name="Changes" comment="/public created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/index_1743192611.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/index_1743196093.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/index_1743257607.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1744388400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753533662.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753533685.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753534061.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753534814.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753534919.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753534924.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535249.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535254.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535255.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535257.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535519.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535532.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535546.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535547.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535554.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753535558.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753536080.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753536111.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pgbackup/pinegrow_1753536115.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/1.ai" beforeDir="false" afterPath="$PROJECT_DIR$/1.ai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/400.html" beforeDir="false" afterPath="$PROJECT_DIR$/400.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/401.html" beforeDir="false" afterPath="$PROJECT_DIR$/401.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/503.html" beforeDir="false" afterPath="$PROJECT_DIR$/503.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blocks.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cc [Recovered].ai" beforeDir="false" afterPath="$PROJECT_DIR$/cc [Recovered].ai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cc.ai" beforeDir="false" afterPath="$PROJECT_DIR$/cc.ai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cc.png" beforeDir="false" afterPath="$PROJECT_DIR$/cc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cc.psd" beforeDir="false" afterPath="$PROJECT_DIR$/cc.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/cc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/comm.html" beforeDir="false" afterPath="$PROJECT_DIR$/comm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.psd" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/istituto.html" beforeDir="false" afterPath="$PROJECT_DIR$/istituto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/peppe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/peppe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pinegrow.json" beforeDir="false" afterPath="$PROJECT_DIR$/pinegrow.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,10 +107,11 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Toto1\WebstormProjects\CONTROCORRENTE" />
+      <recent name="C:\Users\Toto1\WebstormProjects\CONTROCORRENTE\public" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="middleware.ts" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="middleware.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$">
+    <configuration name="middleware.ts" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middleware.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
   </component>
@@ -129,7 +137,7 @@
       <workItem from="1753536877681" duration="177000" />
       <workItem from="1753537097499" duration="306000" />
       <workItem from="1753537435924" duration="6677000" />
-      <workItem from="1753608944867" duration="1375000" />
+      <workItem from="1753608944867" duration="2529000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -235,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753611219336</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="/public created">
+      <option name="closed" value="true" />
+      <created>1753611579885</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1753611579886</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +261,7 @@
     <MESSAGE value="Corrected 4th point social" />
     <MESSAGE value="added files" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="/public created" />
+    <option name="LAST_COMMIT_MESSAGE" value="/public created" />
   </component>
 </project>
