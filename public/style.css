@@ -104,35 +104,35 @@ nav {
 
 /* Custom CSS for Radial Distribution */
 .team-member:nth-child(2) {
-    transform: translate(-50%, -50%) translateY(-30vh);
+    transform: translate(-50%, -50%) translateY(-40vh);
 }
 
 .team-member:nth-child(3) {
-    transform: translate(-50%, -50%) translateY(-21vh) translateX(21vh);
+    transform: translate(-50%, -50%) translateY(-28vh) translateX(28vh);
 }
 
 .team-member:nth-child(4) {
-    transform: translate(-50%, -50%) translateY(0vh) translateX(30vh);
+    transform: translate(-50%, -50%) translateY(0vh) translateX(40vh);
 }
 
 .team-member:nth-child(5) {
-    transform: translate(-50%, -50%) translateY(21vh) translateX(21vh);
+    transform: translate(-50%, -50%) translateY(28vh) translateX(28vh);
 }
 
 .team-member:nth-child(6) {
-    transform: translate(-50%, -50%) translateY(30vh);
+    transform: translate(-50%, -50%) translateY(40vh);
 }
 
 .team-member:nth-child(7) {
-    transform: translate(-50%, -50%) translateY(21vh) translateX(-21vh);
+    transform: translate(-50%, -50%) translateY(28vh) translateX(-28vh);
 }
 
 .team-member:nth-child(8) {
-    transform: translate(-50%, -50%) translateY(0vh) translateX(-30vh);
+    transform: translate(-50%, -50%) translateY(0vh) translateX(-40vh);
 }
 
 .team-member:nth-child(9) {
-    transform: translate(-50%, -50%) translateY(-21vh) translateX(-21vh);
+    transform: translate(-50%, -50%) translateY(-28vh) translateX(-28vh);
 }
 
 @media (max-width: 1024px) {
