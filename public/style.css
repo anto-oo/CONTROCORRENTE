@@ -177,6 +177,11 @@ nav {
     .team-member:nth-child(9) {
         transform: translate(-50%, -50%) translateY(-24vw) translateX(-24vw);
     }
+
+    .center-image{
+        transform: scale(0.50);
+
+    }
 }
 
 @media (max-width: 480px) {
@@ -237,5 +242,10 @@ nav {
 
     .team-member span {
         font-size: clamp(0.6rem, 1.5vw, 0.8rem);
+    }
+
+    .center-image {
+        transform: scale(0.75);
+
     }
 }
