@@ -3,7 +3,7 @@
 
 Ehi!
 
-This repo contains the website and some extra content made for the school list CONTROCORRENTE. The project was commissioned by [@giuseppeesepe](https://www.instagram.com/giuseppeesepe/), one among my fellow students at [Liceo Rummo, BN](www.liceorummo.edu.it). The project originally started in March '25, and is still undergoing continuous improvements and modifications.
+This repo contains the website and some extra content made for the school list "Controcorrente". The project was commissioned by [@giuseppeesepe](https://www.instagram.com/giuseppeesepe/), one among my fellow students at [Liceo Rummo, BN](www.liceorummo.edu.it). The project originally started in March '25, and is still undergoing continuous improvements and modifications.
 
 
 
