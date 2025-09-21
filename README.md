@@ -18,6 +18,10 @@ This repo contains the website and some extra content made for the school list "
 
 **Photos:** Adobe Photoshop; Topaz Photo AI; Luminar Neo
 
+**Animations:** Adobe Photoshop; Adobe After Effects; Adobe Media Encoder
+
+**Videos:** Adobe Photoshop; Blackmagic DaVinci Resolve Studio
+
 ## Enviroments
 
 **Website:** HTML; CSS; NeXT.js
